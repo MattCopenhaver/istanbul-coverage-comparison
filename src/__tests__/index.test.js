@@ -1,7 +1,7 @@
 import istanbulCoverageComparison from '../index';
 
 describe('Coverage Comparison', () => {
-  test('placeholder', () => {
+  test('New Coverage Adds a file', () => {
     expect(istanbulCoverageComparison(
       {"total": {"lines":{"total":12,"covered":11,"skipped":0,"pct":91.67},"statements":{"total":12,"covered":11,"skipped":0,"pct":91.67},"functions":{"total":2,"covered":2,"skipped":0,"pct":100},"branches":{"total":0,"covered":0,"skipped":0,"pct":100}}
   ,"/file1": {"lines":{"total":7,"covered":7,"skipped":0,"pct":100},"functions":{"total":1,"covered":1,"skipped":0,"pct":100},"statements":{"total":7,"covered":7,"skipped":0,"pct":100},"branches":{"total":0,"covered":0,"skipped":0,"pct":100}}
@@ -19,7 +19,7 @@ describe('Coverage Comparison', () => {
   });
 
 
-  test('placeholder2', () => {
+  test('New Coverage Removes a file', () => {
     expect(istanbulCoverageComparison(
       {"total": {"lines":{"total":3,"covered":3,"skipped":0,"pct":100},"statements":{"total":3,"covered":3,"skipped":0,"pct":100},"functions":{"total":1,"covered":1,"skipped":0,"pct":100},"branches":{"total":2,"covered":1,"skipped":0,"pct":50}}
     ,"/file1": {"lines":{"total":3,"covered":3,"skipped":0,"pct":100},"functions":{"total":1,"covered":1,"skipped":0,"pct":100},"statements":{"total":3,"covered":3,"skipped":0,"pct":100},"branches":{"total":2,"covered":1,"skipped":0,"pct":50}}

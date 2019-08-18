@@ -1,7 +1,7 @@
 import compareSingleCoverageObject from '../compare-single-coverage-object';
 
 describe('Compare single coverage object', () => {
-  test('placeholder', () => {
+  test('Unchanged in new vs old', () => {
     expect(compareSingleCoverageObject({
       "lines": {
           "total": 3,
