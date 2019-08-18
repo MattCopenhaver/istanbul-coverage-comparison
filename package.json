@@ -1,0 +1,27 @@
+{
+  "name": "istanbul-coverage-comparison",
+  "version": "1.0.0",
+  "description": "Compares the coverage output of the istanbul code coverage tool, showing the change in coverage between two coverage reports.  Most useful for viewing the proposed changes in pull requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "istanbul",
+    "javascript",
+    "unit",
+    "test",
+    "testing",
+    "code",
+    "coverage"
+  ],
+  "author": "Matt Copenhaver",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {}
+}
